@@ -1,0 +1,8 @@
+.DS_Store
+*.py[c]
+*.log
+.idea/
+*.zip
+tmp/
+download/
+output/

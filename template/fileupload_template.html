@@ -1,0 +1,8 @@
+<body>
+    {% for key, file in files  %}
+        <input type='file' class='{{ key }}' id='{{ loop.index }}_file_upload'>
+    {% endfor %}
+    <div id="response_status"></div>
+    <div id="response_headers"></div>
+    <div id="response_content"></div>
+</body>
